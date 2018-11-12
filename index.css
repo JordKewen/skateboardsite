@@ -1,12 +1,33 @@
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#navigation{
+	background:black;
+	display: grid;
+	grid-template-columns: 6fr 2fr;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.inner_nav{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.inner_nav a {
+	color: white;
+}
 nav > h1 {
 	display: inline;
-}
-nav > div {
-	float:right;
-	
-	
+	color: white
 }
 
+.toplinkcontainer {
+	margin-bottom: 1em;
+}
 
 #mapedit {
 	margin-left: 1%;
@@ -18,24 +39,26 @@ nav > div {
 	background-image: url('site_images/intro_image1.jpg');
 	background-size: 100%;
 	background-position: center;
-	padding: 123px;
+	background-attachment: fixed;
+	padding: 268px;
 	margin-left: 1%;
 	margin-right: 1%;
 	
 }
 
 #intro > h2 {
-	color: #FFFFFF;
+	color: lemonchiffon;
 	text-align: center;
+	font-size: 20;
 }
 
 #intro > h3 {
-	color: #FFFFFF;
+	color: lemonchiffon;
 	text-align: center;
 }
 
 #intro > h4 {
-	color: #FFFFFF;
+	color: lemonchiffon;
 	text-align: center;
 }
 
@@ -66,11 +89,14 @@ nav > div {
 }
 
 #soloimg > img {
-	position: center;
-	margin-right: 1%;
-	margin-left: 1%;
 	
+	max-width: 100%;
 
+}
+#soloimg {
+	margin: auto;
+	width: 95%;
+	margin-top: 1em;
 }
 
 #skateboards > h1 {
