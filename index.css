@@ -1,0 +1,119 @@
+nav > h1 {
+	display: inline;
+}
+nav > div {
+	float:right;
+	
+	
+}
+
+
+#mapedit {
+	margin-left: 1%;
+	margin-right: 1%
+}
+
+
+#intro {
+	background-image: url('site_images/intro_image1.jpg');
+	background-size: 100%;
+	background-position: center;
+	padding: 123px;
+	margin-left: 1%;
+	margin-right: 1%;
+	
+}
+
+#intro > h2 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#intro > h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#intro > h4 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#map > h1 {
+
+	text-align: center;
+
+}
+
+.toplinkcontainer {
+	text-align: center;
+}
+
+#gallery > h1 {
+	text-align: center;
+}
+.grid{
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 1em;
+	width: 95%;
+	margin: auto;
+
+}
+.grid img {
+	max-width: 100%;
+}
+
+#soloimg > img {
+	position: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	
+
+}
+
+#skateboards > h1 {
+	text-align: center;
+}
+
+.deckgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width:75%;
+	margin:auto;
+	/* width: 100%; */
+}
+
+.deckgrid img {
+	width: 100%;
+}
+
+.deckgrid h1 {
+	text-align: center;
+}
+
+#teamsec > h1 {
+	text-align: center;
+}
+
+.teamgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width:75%;
+	margin:auto;
+}
+
+.teamgrid img {
+	width:100%
+}
+
+.footer {
+	text-align: center;
+	background-color: black;
+	
+}
+
+.footer p {
+	color: white;
+}
